@@ -1,0 +1,102 @@
+body {
+	background: lightgrey;
+	font-size: 10px;
+	letter-spacing: 5px;
+}
+h1 {
+	color: #fff;
+	background-color: #000;
+	font-family: 'Lobster', cursive;
+	font-size: 4em;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.subtitulo {
+	color:blueviolet;
+	background-color: burlywood;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 4em;
+	text-transform: capitalize;
+}
+.parrafo {
+	color: navy;
+	background-color: rgba(100,100,100,0.5);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 60px;
+	letter-spacing: 5px;
+	font-style: oblique;
+}
+.parrafo2 {
+	color: navy;
+	background-color: rgba(100,100,100,0.5);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 60px;
+	letter-spacing: 5px;
+	font-style: italic;/*comentario*/
+	background-image: url(https://superdevresources.com/wp-content/uploads/2014/09/wood-textures.jpg);
+	background-size: cover;
+}
+.link {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 60px;
+	letter-spacing: 5px;
+	color: black;
+	text-decoration:none;
+	border:3px solid green;
+	border-radius: 50%;
+}
+.link:hover{
+	color: red;
+	background-color: yellow;
+	cursor:wait;
+}
+.link:active{
+	color: black;
+	cursor: pointer;
+}
+.link:visited{
+
+}
+.link2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 60px;
+	letter-spacing: 5px;
+	color: black;
+	text-decoration:none;
+	border:5px dotted green;
+	border-radius: 20px;
+}
+.link3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 60px;
+	letter-spacing: 5px;
+	color: black;
+	text-decoration:none;
+	border:5px double green;
+	border-radius: 20px;
+	background-image: url();
+}
+.link4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 60px;
+	letter-spacing: 5px;
+	color: black;
+	text-decoration:none;
+	border:10px dashed green;
+	border-radius: 40px;
+	background-image: url(https://superdevresources.com/wp-content/uploads/2014/09/wood-textures.jpg);
+}
