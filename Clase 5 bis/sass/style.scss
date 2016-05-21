@@ -1,0 +1,61 @@
+.tabla{
+	border-radius: 5px 5px 0 0;
+	border:1px solid grey;
+	width:250px;
+	height: auto;
+	.pro{
+		width:100%;
+		height:auto;
+		background-color: #C1CDC1;
+		border-bottom: 1px solid blue;
+		h1{
+			text-transform: uppercase;
+			font-family: 'Lato', sans-serif;
+			font-size: 1em;
+			text-align: center;
+			color: #fff;
+			margin: 0;
+			padding: 10px 0 0px 0;
+		}
+		p{
+			font-family: 'Lato', sans-serif;
+			font-size: 2em;
+			text-align: center;
+			color: #fff;
+			margin: 0;
+			padding: 0px 0 10px 0;
+		}
+	}
+	.caracteristicas{
+		ul{
+			margin: 0;
+			padding:0;
+			li{
+			padding: 10px 0;
+			margin: 0;
+			border-bottom:1px solid grey;
+			font-family: 'Lato', sans-serif;
+			font-size: 0.9em;
+			text-align: center;
+			list-style-type:none;
+			text-transform: capitalize
+			}
+		}
+	}
+	.boton{ 
+		background-color: #000;
+		width: 90%;
+		height: auto;
+		border-radius:5px;
+		margin: 35px auto 10px auto;
+		padding: 10px 0;
+		text-align: center;
+			a{
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: 'Lato', sans-serif;
+			font-size: 0.9em;
+			color: #fff;
+			}	
+		}
+}

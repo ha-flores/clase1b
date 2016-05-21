@@ -1,0 +1,33 @@
+//$nombre=valor;
+$color-primario: #4467ad;
+$color-secundario: #fff;
+$color-secundario-dark: darken($color-secundario, 20%);
+$color-texto: #333;
+$fuente: Arial,Helvetica, sans-serif;
+$fuente-titulos: Verdana, Tahoma, Sans-serif;
+
+header{
+	background:$color-primario;
+	min-height:300px;
+	h1{
+		font-family: Arial, Helvetica, Sans-serif;
+		background:grey;
+		font-size: 100px;
+		color: $color-secundario-dark;
+
+		@media screen and (max-width:800px){
+			font-size:40px;
+			color: blue;
+		}
+	}
+	h3{
+		text-decoration: underline;
+		text-shadow: 3px 3px 3px rgba(0,0,0,5)		
+	}
+	.accion{
+		a{
+			color: red;
+			font-weight:bold;
+		}
+	}
+}
